@@ -24,7 +24,11 @@ body {
 }
 
 .site-head{
+  @media (max-width: 1000px) {
+    padding:0;
+  }
   height:30%;
+  padding:5% 0;
 }
 .welcome {
   min-height: 50px;
@@ -49,6 +53,7 @@ body {
 }
 .box_content {
   @media (max-width: 1000px) {
+    margin-top:10px;
     width: 100%;
   }
   width:calc(100%/3);
