@@ -2,7 +2,11 @@
 <?php get_header('home'); ?>
 
 <div class='welcome'>
-     Hey! This is a welcoming section!!
+<?php
+     if (have_posts()) {
+          the_title();
+     }
+?>
 </div>
 <div class='intro'>
 <!-- start slipsum code -->

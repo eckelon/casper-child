@@ -28,13 +28,14 @@ body {
 }
 
 .site-head{
-  height:30%;
+  height:10%;
   padding:5% 0;
 }
 
 @media (max-width: 1000px) {
 
   .site-head {
+    height: 5%;
     padding: 0;
   }
 }
