@@ -1,4 +1,5 @@
 /*
+<<<<<<< HEAD
 Theme Name:       Casper Child
 Theme URI:        https://github.com/lacymorrow/casper-wp
 Author:           Lacy Morrow
@@ -95,3 +96,16 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+=======
+  Theme Name:       Casper Child
+  Theme URI:        https://github.com/lacymorrow/casper-wp
+  Author:           Lacy Morrow
+  Author URI:       http://lacymorrow.com
+  Description:      Casper Child Theme
+  Version:          1.0.0
+  Template:         casper
+  Usage: Copy the casper-child folder into your wp-content/themes/ directory and activate it in the dashboard.
+*/
+
+/* ----- Begin Customizations Here - Enjoy :) ----- */
+>>>>>>> c3261fbeeb00cfd2d1501cba202c1f78611176a7
