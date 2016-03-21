@@ -14,6 +14,7 @@ rename = require('gulp-rename');
 nano = require('gulp-cssnano');
 notify = require("gulp-notify");
 grid = require("postcss-grid");
+calc = require("postcss-calc");
 
 
 var imgSrc = './src/img/*';
@@ -75,6 +76,7 @@ gulp.task('css', function() {
             "sort-order": "csscomb"
         }),
         autoprefixer,
+        calc,
         grid(grid_options)
     ];
     return gulp.src('./src/css/style.css')

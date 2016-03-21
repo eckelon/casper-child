@@ -1,17 +1,32 @@
 /*
-  Theme Name:       Casper Child
-  Theme URI:        https://github.com/lacymorrow/casper-wp
-  Author:           Lacy Morrow
-  Author URI:       http://lacymorrow.com
-  Description:      Casper Child Theme
-  Version:          1.0.0
-  Template:         casper
-  Usage: Copy the casper-child folder into your wp-content/themes/ directory and activate it in the dashboard.
-*/
+Theme Name:       Casper Child
+Theme URI:        https://github.com/lacymorrow/casper-wp
+Author:           Lacy Morrow
+Author URI:       http://lacymorrow.com
+Description:      Casper Child Theme
+Version:          1.0.0
+Template:         casper
+Usage: Copy the casper-child folder into your wp-content/themes/ directory and activate it in the dashboard.
+ */
 
 /* ----- Begin Customizations Here - Enjoy :) ----- */
+
+body {
+  font-size: 2rem;
+  line-height: 1.6em;
+  color: #3a4145;
+}
+
+.tweeter-info .right {
+  float: none !important;
+  padding: 0 0px 0px 0px;
+  line-height: 15px !important;
+}
+
+.site-head{
+  height:30%;
+}
 .welcome {
-  border: 1px solid pink;
   min-height: 50px;
   font-size: 50px;
   font-weight: bold;
@@ -19,21 +34,36 @@
 }
 
 .intro {
-  border: 1px dotted blue;
   min-height: 50px;
-  margin-left:20%;
-  margin-right:20%;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:60px;
 }
 
 .box_container {
-  border: 1px solid green;
   height: 50px;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
 }
 .box_content {
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
+  width:calc(100%/3);
+  box-sizing:border-box;
+  float: left;
+  position: relative;
   h2 {
     font-size:30px;
+  text-align:center;
   }
-  grid-column: 4/12;
+
+  ul {
+    list-style-type: none;
+    line-height: 0.2px;
+    font-size: 25px;
+  }
   min-height: 50px;
-  border: 1px dotted red;
 }
