@@ -62,8 +62,9 @@ body {
 
   ul {
     list-style-type: none;
-    line-height: 0.2px;
+    line-height: normal;
     font-size: 25px;
+    margin-right:10px;
   }
   min-height: 50px;
 }

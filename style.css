@@ -79,7 +79,8 @@ body {
 
 .box_content ul {
   font-size: 1.56rem;
-  line-height: 0.01rem;
+  line-height: normal;
+  margin-right:10px;
   list-style-type: none;
 }
 
