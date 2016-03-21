@@ -10,6 +10,30 @@
 */
 
 /* ----- Begin Customizations Here - Enjoy :) ----- */
-.element {
-  grid-column: 1/12;
+.welcome {
+  border: 1px solid pink;
+  min-height: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align:center;
+}
+
+.intro {
+  border: 1px dotted blue;
+  min-height: 50px;
+  margin-left:20%;
+  margin-right:20%;
+}
+
+.box_container {
+  border: 1px solid green;
+  height: 50px;
+}
+.box_content {
+  h2 {
+    font-size:30px;
+  }
+  grid-column: 4/12;
+  min-height: 50px;
+  border: 1px dotted red;
 }

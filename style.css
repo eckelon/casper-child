@@ -11,10 +11,45 @@
 
 /* ----- Begin Customizations Here - Enjoy :) ----- */
 
-.element {
+.welcome {
+  font-size: 3.13rem;
+  font-weight: bold;
+
+  min-height: 50px;
+
+  text-align:center;
+
+  border: 1px solid pink;
+}
+
+.intro {
+  min-height: 50px;
+  margin-right:20%;
+  margin-left:20%;
+
+  border: 1px dotted blue;
+}
+
+.box_container {
+  height: 50px;
+
+  border: 1px solid green;
+}
+
+.box_content {
+  min-height: 50px;
+
+  border: 1px dotted red;
+
   float: left;
-  width: 6.42361%;
+
+  width: 31.94444%;
+
   margin-right: 2.08333%;
+}
+
+.box_content h2 {
+  font-size:1.88rem;
 }
 
 /*# sourceMappingURL=style.css.map */
