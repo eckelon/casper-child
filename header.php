@@ -1,4 +1,3 @@
-
 <?php
 /**
  * The Header for our theme.
@@ -152,8 +151,8 @@
                         </a>
                     <?php } ?>
                 </div>
-                <h1 class="blog-title"><a class="blog-logo" href='<?php echo esc_url( home_url( '/' ) ); ?>' rel='home'><?php //bloginfo( 'name' ); ?>¡Hola!</a></h1>
-                <h2 class="blog-description"><?php //bloginfo( 'description' ); ?></h2>
+                <h1 class="blog-title"><a class="blog-logo" href='<?php echo esc_url( home_url( '/' ) ); ?>' rel='home'><?php bloginfo( 'name' ); ?></a></h1>
+                <h2 class="blog-description"><?php bloginfo( 'description' ); ?></h2>
             </div>
         </div>
     </div>

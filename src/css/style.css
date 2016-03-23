@@ -31,6 +31,15 @@ body {
   height:10%;
   padding:5% 0;
 }
+
+.site-footer {
+  text-align:left;
+}
+
+.tweeter-info .right {
+    line-height: 23px !important;
+}
+
 .welcome {
   min-height: 50px;
   font-size: 50px;
